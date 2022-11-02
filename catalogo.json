@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "nombre": "Café Filtrado",
+        "precio": 3000,
+        "imagen": "./img/cafe-filtrado.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Café Americano",
+        "precio": 2000,
+        "imagen": "./img/cafe-filtrado.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Café Espresso",
+        "precio": 2000,
+        "imagen": "./img/cafe-filtrado.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Café Mocha",
+        "precio": 3500,
+        "imagen": "./img/cafelatte.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Café Cappuccino",
+        "precio": 3500,
+        "imagen": "./img/cafelatte.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Café Latte",
+        "precio": 3000,
+        "imagen": "./img/cafelatte.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Café Macchiato",
+        "precio": 3000,
+        "imagen": "./img/cafelatte.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Café Doppio",
+        "precio": 4000,
+        "imagen": "./img/cafe-filtrado.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Café Frio",
+        "precio": 4000,
+        "imagen": "./img/cafelatte.jpg"
+    }
+]

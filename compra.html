@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon1.png" />
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      crossorigin="crossorigin"
+      as="font"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Coffe Store</title>
+    <meta name="description" content="Tu cafeteria favorita =)" />
+  </head>
+  <body>
+    <header>
+        <h3><a href="/index.html"><img src="../img/atras.svg" alt="<" class="flip"> </a>Volver</h3>
+    </header>
+    
+
+      <main class="contenedor">
+        <h3 class="centrar-texto">Finalizar Compra</h3>
+
+        <div class="comprar-bg"></div>
+
+        <form class="formulario">
+          <div class="campo d-flex justify-content-centerhttps://github.com/winstonft/proyecto_javascript.git">
+            <h2 id="pedido-cafes"></h2>
+          </div>
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input 
+                    class="campo__field"
+                    type="text" 
+                    placeholder="Tu Nombre" 
+                    id="nombre"
+                >
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="email">E-mail</label>
+                <input 
+                    class="campo__field"
+                    type="email" 
+                    placeholder="Tu E-mail" 
+                    id="email"
+                >
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea 
+                    class="campo__field campo__field--textarea"
+                    id="mensaje"
+                ></textarea>
+            </div>
+
+            <div class="campo d-flex justify-content-center">
+                <button type="submit" id="confirmar-compra" class="button u-full-width btn btn-primary">Confirmar compra</button>
+            </div>
+        </form>
+
+        
+    </main>
+    <script src="./js/comprar.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script
+  </body>
+</html>
